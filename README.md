@@ -1,1 +1,1 @@
-# landing-page
+A place to practice building an entire web page from a given design.

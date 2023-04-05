@@ -99,21 +99,22 @@ button {
 .awesome {
     justify-content: center;
     align-items: center;
-    
 }
 
 .awesome .title {
     width: 350px;
     margin-bottom: 7px;
+    flex-shrink: 0;
 }
 
 .awesome .text {
     width: 450px;
     margin-top: 7px;
     margin-bottom: 10px;
+    flex-shrink: 1;
 }
 
 .hero .placeholder { 
     width: 300px;  
-    flex-shrink: 0; 
+    flex-shrink: 1; 
 }

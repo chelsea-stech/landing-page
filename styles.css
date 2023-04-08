@@ -12,12 +12,12 @@ body {
 }
 
 a:link {
-    color: red;
+    color: palevioletred;
     text-decoration: none;
 }
 
 a:visited {
-    color: green;
+    color: lightseagreen;
 }
 
 a:hover { 
@@ -230,3 +230,66 @@ button {
     margin-left: 800px;
 }
 
+/* Call to Action Section */
+.call-action {
+    background-color: white;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 0;
+}
+
+.action-time {
+    background-color: #3882f6;
+    display: flex;
+    width: 900px;
+    height: 120px;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.action-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    width: fit-content;
+}
+
+.action-subtext {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: fit-content;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+.button-up {
+    border: 2px solid white;
+    width: 120px;
+    margin-left: 650px;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+}
+
+/* footer */
+.lastly {
+    background-color: #1f2937;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-footer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

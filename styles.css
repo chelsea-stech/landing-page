@@ -123,16 +123,12 @@ button {
     flex-wrap: wrap;  
     width: auto;
     height: 500px;
-    
+    flex-direction: column;
 }
 
 .rando {
-    justify-content: stretch;
-    align-items: baseline;
-    flex-shrink: 0;
-    background-color: lightgreen;
-    padding: 25px;
-    flex-direction: column;
+    flex-shrink: 1;
+    padding: 25px; 
 }
 
 .random-title {
@@ -143,13 +139,14 @@ button {
     color: #1f2937;
     flex-shrink: 1;
     justify-content: center;
+    width: 150px;
 }
 
 .rando .random-title {
-    width: 450px;
+    width: auto;
+    justify-content: center;
     margin-top: 7px;
     margin-bottom: 10px;
-    flex-shrink: 1;
 }
 
 .boxes {
@@ -159,6 +156,7 @@ button {
     list-style-type: none;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 }
  
 .box-1,
@@ -176,15 +174,17 @@ button {
 }
 
 .subtext {
+    background-color: gold;
+    flex-shrink: 1;
+    
+}
+
+.btext {
     display: flex;
-    background-color: lightpink;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: smaller;
-    width: 150px;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    flex-direction: row;
+    justify-content: center;    
+    border: 5px solid black;
+    gap: 0 60px;
+    
 }
 
 .box-text-1,
@@ -192,5 +192,9 @@ button {
 .box-text-3,
 .box-text-4 {
     border: 3px solid black;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
 }
 

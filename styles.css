@@ -188,8 +188,7 @@ button {
     display: flex;   
     gap: 0 80px;    
     margin-top: -25px;
-    flex-shrink: 1;
-    padding-left: 25px;
+    justify-content: center;
 }
 
 .box-text-1,
